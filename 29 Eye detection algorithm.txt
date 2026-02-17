@@ -5,7 +5,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 # 2. Read the input image
-img = cv2.imread(r'C:\Users\HP\Documents\openCV\face.jpeg')
+img = cv2.imread("C:\Users\jaswa\OneDrive\Desktop\matsya th2.jpeg")
 
 if img is None:
     print("Error: Could not load image.")
