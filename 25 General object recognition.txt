@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 # 1. Load the main image and the template of the watch
-img_rgb = cv2.imread(r'C:\Users\HP\Documents\openCV\sample.jpg')
-template = cv2.imread(r'C:\Users\HP\Documents\openCV\template.png', 0)
+img_rgb = cv2.imread("C:\Users\jaswa\OneDrive\Desktop\matsya th2.jpeg")
+template = cv2.imread("C:\Users\jaswa\OneDrive\Desktop\matsya th2.jpeg", 0)
 
 if img_rgb is None or template is None:
     print("Error: Could not load images. Ensure both main image and template exist.")
