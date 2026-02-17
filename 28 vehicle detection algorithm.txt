@@ -1,10 +1,10 @@
 import cv2
 
 # 1. Load the classifier
-car_cascade = cv2.CascadeClassifier(r'C:\Users\HP\Documents\openCV\cars.xml')
+car_cascade = cv2.CascadeClassifier("C:\Users\jaswa\OneDrive\Desktop\matsya th2.xml')
 
 # 2. Open the video
-cap = cv2.VideoCapture(r'C:\Users\HP\Documents\openCV\car.mp4')
+cap = cv2.VideoCapture("C:\Users\jaswa\OneDrive\Desktop\matsya th2.mp4')
 
 while cap.isOpened():
     ret, frame = cap.read()
